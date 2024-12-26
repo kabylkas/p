@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links</title>
+    <style>
+        body {
+            background-color: #1e1e2e;
+            color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #3f3f5f;
+            margin-bottom: 20px;
+        }
+
+        .link-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .link-button {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #3e3e5e;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .link-button:hover {
+            background-color: #52527e;
+            transform: scale(1.05);
+        }
+
+        .link-button:active {
+            background-color: #2f2f4f;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="./mdv101/assets/images/instructor.png" alt="Your Profile Photo" class="profile-photo">
+
+    <div class="link-buttons">
+        <a href="https://kabylkas.github.io" class="link-button">Personal Webpage</a>
+        <a href="https://kabylkas.github.io/mdv101/" class="link-button">Microprocessor Design Course</a>
+        <a href="https://www.youtube.com/playlist?list=PLQARMI7sZ0x4_oBieClgkvBYOTE4ulVki" class="link-button">PhD Talks Podcast</a>
+    </div>
+
+</body>
+</html>
